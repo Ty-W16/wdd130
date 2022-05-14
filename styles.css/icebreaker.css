@@ -1,0 +1,31 @@
+body{
+    background-color: steelblue;
+    max-width:30%;
+    margin: 0 auto;
+    font-weight:700;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 0.75em;
+}
+main{
+    max-width:55%;
+    text-align: center;
+    color:white;
+    margin: 0 auto;
+}
+
+div {
+}
+img{
+    width:70%;
+}
+
+footer {
+    text-align: center;
+    font-size: 1em;
+    margin: 10%;
+    line-height:15px;
+}
