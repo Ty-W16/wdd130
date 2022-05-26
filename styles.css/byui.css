@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rock+Salt&family=Satisfy&display=swap');
+
 body{
     background-color: #CCCCCC;
+    font-family: Roboto, serif;
+    margin: 0px;
 }
 
 nav, footer{
@@ -23,6 +27,8 @@ a:hover {
 h1 {
     color:steelblue;
     text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
+    margin: 50px 0;
 }
 
 img {
@@ -30,6 +36,11 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    /*border-r
+    adius: 10px;
+    box-shadow: 15px 15px 10px #ccc;
+    */
+  
 }
 
 p {
@@ -52,4 +63,5 @@ color:black;
 footer p {
     font-size: 20px;
     color: white;
+    padding: 5px auto;
 }
