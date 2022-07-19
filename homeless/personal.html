@@ -8,15 +8,54 @@
     <link href="styles\personal.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>North Idaho Homeless</h1> 
-    </header>
-    <nav>
-        <a href="homeless\personal.html">Personal Home Page</a>
-        <a href="homeless\personal2.html">Information</a>
-        <a href="homeless\personal3.html">Blog</a>
+  <div>
+    <img class="view" src="images/sandpoint_bridge.jpg" alt="Dry Oar Logo">
+    </div>
+    
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "#60656F";
+      }
+      <span class="button" onclick="openNav()">Test Please</span>
+    </script>
 
-    </nav>
-    <p>Ty Wittmann-WWD130</p>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="personal.html">About</a>
+        <a href="personal2.html">Information</a>
+        <a href="personal3.html">Posts</a>
+      </div>
+
+
+
+      <!-- Use any element to open the sidenav -->
+      <footer>
+        <h3>Dry Oar &copy; 2022 - Ty Wittmann</h3>
+        <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
 </body>
 </html>
