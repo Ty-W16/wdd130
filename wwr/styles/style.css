@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Average&family=Satisfy&display=swap');
 
-body {
+ body {
     background-color: #00A8F3;--heading-font: Satisfy, cursive;
     --paragraph-font: Average, serif;
     font-size: 22px;
@@ -36,8 +36,8 @@ nav a:hover {
 }
 #content {
     max-width: 1600px;
-    margin: 0 auto;
-    display: grid;
+    /* margin: 0 auto; */
+    /* display: grid; */
 }
 
 #hero {
@@ -249,7 +249,8 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Page 2 CSS */
+
+
 .subgrid { 
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -266,7 +267,8 @@ a:hover {
     background-color: #0C3866;
     font-family: var(--heading-font);
     color: white;
-}
+    padding: 20px;
+} 
 
 #salmon-river {
     grid-column: 1/3;
@@ -336,7 +338,7 @@ a:hover {
     text-align: center;
     margin: 10px 0;
     padding: 10px;
-}
+} 
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

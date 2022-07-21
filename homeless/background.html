@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.grid-container-element { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid black; 
+    width: 50%; 
+} 
+.grid-child-element { 
+    margin: 10px; 
+    border: 1px solid red; 
+}
+
+
+
+</style>
+</head>
+<body>
+  <div class="grid-container-element">
+    <div class="grid-child-element purple">Grid Column 1</div>
+    <div class="grid-child-element green">Grid Column 2</div>
+</div>
+
+</body>
+</html>

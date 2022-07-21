@@ -2,22 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>North Idaho Homeless</title>
-    <link href="styles\personal.css" rel="stylesheet">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
+    <link rel="stylesheet" href="styles/personal.css">
 </head>
-<body>
+<body background="images\sandpoint_bridge.jpg">
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
-           </a>
-           <nav>
-               <a href="index.html">Home</a>
-               <a href="rivers.html">Page 2</a>
-               <a href="site-plan-raftin.html">Site Plan</a>
-               <a href="contactus.html">Contact Us</a>
-           </nav>
-    </header>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="personal1.html">Home</a>
+        <a href="personal2.html">Information</a>
+        <a href="personal3.html">Posts</a>
+        <a href="#">Contact</a>
+        <a style="margin:200% 0 0 0;"href="homeless\login-page.html">Sign Out</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <a class="menu" onclick="openNav()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </a>
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main">
+<script>
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+document.getElementById("main").style.marginLeft = "250px";
+document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+document.getElementById("main").style.marginLeft = "0";
+document.body.style.backgroundColor = "white"; }
+</script>
+      </div>
+</header>
+
+<div class="title">
+    <h2>Homeless Information</h2>
+</div>
+
+<main class="psec">
+    <div class="post">Post 1<br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, corporis ducimus ipsam quod debitis in a laborum dolore provident quia libero ratione, fugiat esse alias accusamus. Soluta accusamus ipsum est animi beatae eligendi molestiae sequi quod assumenda sapiente. Deserunt, quaerat! Voluptates pariatur eaque, alias mollitia voluptas non ullam iste architecto.
+    </div>
+    <div class="post">Post 2<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, corporis ducimus ipsam quod debitis in a laborum dolore provident quia libero ratione, fugiat esse alias accusamus. Soluta accusamus ipsum est animi beatae eligendi molestiae sequi quod assumenda sapiente. Deserunt, quaerat! Voluptates pariatur eaque, alias mollitia voluptas non ullam iste architecto. 
+    </div>
+    <div class="post">Post 3<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, corporis ducimus ipsam quod debitis in a laborum dolore provident quia libero ratione, fugiat esse alias accusamus. Soluta accusamus ipsum est animi beatae eligendi molestiae sequi quod assumenda sapiente. Deserunt, quaerat! Voluptates pariatur eaque, alias mollitia voluptas non ullam iste architecto.
+     </div>
+    <div class="post">Post 4<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, corporis ducimus ipsam quod debitis in a laborum dolore provident quia libero ratione, fugiat esse alias accusamus. Soluta accusamus ipsum est animi beatae eligendi molestiae sequi quod assumenda sapiente. Deserunt, quaerat! Voluptates pariatur eaque, alias mollitia voluptas non ullam iste architecto.
+     </div>
+    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42479.10618021665!2d-116.59085430382551!3d48.284690584150276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5363d1332dff4541%3A0xab5434ebcfe9717b!2sSandpoint%2C%20ID%2083864!5e0!3m2!1sen!2sus!4v1658364824679!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+</main>
+
 </body>
+<!-- <footer>
+    <h3>Dry Oar &copy; 2022 - Ty Wittmann</h3>
+    <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+    <h3><a href="contactus.html">Contact Us</a></h3>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer> -->
 </html>
